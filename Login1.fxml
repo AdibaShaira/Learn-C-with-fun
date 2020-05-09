@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LogINController">
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="927.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@best-programming-language-sg-825x500.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutY="20.0" text="LEARN C WITH FUN" textFill="#157bb2">
+         <font>
+            <Font name="Chiller" size="96.0" />
+         </font>
+      </Label>
+      <TextField fx:id="LogInName" alignment="BOTTOM_CENTER" layoutX="616.0" layoutY="212.0" minHeight="35.0" minWidth="200.0" prefHeight="20.0" prefWidth="199.0" promptText="Username" style="-fx-background-color: orange;">
+         <font>
+            <Font name="Chiller" size="24.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="LogInPassword" alignment="CENTER" layoutX="616.0" layoutY="276.0" minHeight="35.0" minWidth="200.0" prefHeight="20.0" prefWidth="199.0" promptText="Password" style="-fx-background-color: orange;">
+         <font>
+            <Font name="Chiller" size="24.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="683.0" layoutY="342.0" mnemonicParsing="false" style="-fx-background-color: #0695e8;" text="LOG IN" textFill="#f9fbfc" onAction="#LogInAction">
+         <font>
+            <Font name="Chiller" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="629.0" layoutY="412.0" text="Don't have an account?" textFill="#b52828">
+         <font>
+            <Font name="Brush Script MT Italic" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="686.0" layoutY="451.0" mnemonicParsing="false" style="-fx-background-color: #b52828;" text="SIGN UP" textFill="#faf6f6" onAction="#SignAction">
+         <font>
+            <Font name="Brush Script MT Italic" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
